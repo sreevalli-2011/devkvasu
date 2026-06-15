@@ -1,0 +1,153 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');/* HERO BASE */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Pinyon+Script&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* CONTENT */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+
+  max-width: 520px;
+  margin-left: 80px;
+}
+
+/* TITLE */
+.hero h1 {
+  font-family: "Pinyon Script", cursive;
+  font-size: 70px;
+  margin: 0;
+  color:white;
+  font-style: normal;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  font-style: italic;
+  
+}
+
+.logo img {
+  height: 55px;   /* increase from ~40–45 */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.logo:hover{
+    opacity: 0.85;
+}
+
+.brand-name {
+  font-family:  "Urbanist", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: white;
+  font-optical-sizing: auto;
+  
+ 
+}
+
+.hero h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  margin: 10px 0 20px;
+  color:white;
+}
+
+/* TEXT */
+.desc {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  opacity: 0.85;
+  font-family: "Roboto", sans-serif;
+}
+
+/* BUTTONS */
+/* keep content width controlled */
+.hero-content {
+  max-width: 520px;
+}
+
+/* align buttons perfectly with text */
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;   /* spacing from subtitle */
+}
+
+/* make buttons look premium + balanced */
+.hero-buttons button {
+  padding: 12px 20px;        /* slightly bigger */
+  border: 1px solid white;   /* instead of no border */
+  background: transparent;   /* clean look */
+  color: white;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-left: 30px;
+}
+
+/* hover effect */
+.hero-buttons button:hover {
+  background: white;
+  color: black;
+}
+/* 🔥 HIDE EFFECT (MAIN FIX) */
+.hero.hide .hero-content {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.4s ease;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+}
+.hero.hide .hero-content {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.4s ease;
+}

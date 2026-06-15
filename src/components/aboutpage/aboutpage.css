@@ -1,0 +1,78 @@
+/* Ensure the page starts below the navbar */
+.about-page {
+
+  color: #fff;
+  padding-top: 50px; /* Space for your nav */
+  font-family: 'Helvetica', sans-serif;
+    min-height: 100vh;
+}
+
+/* For the quote section */
+.about-hero blockquote {
+  border-left: none;
+  font-size: 1.5rem;
+  font-style: italic;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* The Horizontal Line style used in her site */
+hr {
+  border-top: 1px solid #333;
+  width: 60%;
+  margin: 40px auto;
+}
+
+/* Responsive Image Handling */
+.img-fluid {
+  border-radius: 4px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+/* Styling the headers to match her site */
+.about-intro h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Add a slight grayscale or "Ninja" feel to the image if you like */
+.about-intro img {
+  transition: transform 0.3s ease;
+}
+
+.about-intro img:hover {
+  transform: scale(1.02); /* Very subtle zoom on hover */
+}
+
+/* Spacing for mobile */
+@media (max-width: 768px) {
+  .about-intro .pl-md-4 {
+    padding-left: 15px !important;
+    margin-top: 20px;
+  }
+}
+
+/* SMOOTH CONTENT EFFECT */
+
+.about-content{
+
+    transition: all 0.6s ease;
+
+    opacity: 1;
+
+    transform: translateY(0);
+}
+
+/* HIDE CONTENT */
+
+.hide-content{
+
+    opacity: 0;
+
+    transform: translateY(-30px);
+
+    pointer-events: none;
+}

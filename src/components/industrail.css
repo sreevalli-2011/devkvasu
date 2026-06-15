@@ -1,0 +1,254 @@
+/* ==========================================================================
+   MAIN WRAPPERS & CONTAINERS
+   ========================================================================== */
+.industrial-content {
+  width: 100%;
+  box-sizing: border-box;
+  background: #000;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+/* ==========================================================================
+   TRUE ASPECT RATIO MASONRY (Pinterest Layout - Gaps Closed)
+   ========================================================================== */
+.gallery-grid {
+  column-count: 3; /* డెస్క్‌టాప్‌లో 3 నిలువు వరుసలు */
+  column-gap: 18px; 
+  width: 100%;
+  padding-top: 20px;
+}
+
+/* ==========================================================================
+   CARD STRUCTURE (NO ROW GAPS)
+   ========================================================================== */
+.event-card {
+  position: relative;
+  display: inline-block; /* కాలమ్స్ లోపల వర్టికల్ ఇమేజ్ విరిగిపోకుండా ఆపుతుంది */
+  width: 100%;
+  margin-bottom: 18px; 
+  border-radius: 14px;
+  overflow: hidden;
+  background: #111;
+  cursor: pointer;
+}
+
+.event-card img {
+  width: 100%;
+  height: auto !important; /* పాత హార్డ్-కోడెడ్ ఎత్తులను పూర్తిగా ఓవర్‌రైడ్ చేస్తుంది */
+  display: block;
+  transition: transform 0.6s ease;
+  border-radius: 0px; 
+}
+
+/* హోవర్ జూమ్ ఎఫెక్ట్ */
+.event-card:hover img {
+  transform: scale(1.04);
+}
+
+/* ==========================================================================
+   PREMIUM MATTE BLACK OVERLAY SHADOW (సినిమాటిక్ ఇండస్ట్రియల్ లుక్)
+   ========================================================================== */
+.industrial-info {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.event-card:hover .industrial-info {
+  opacity: 1;
+  background: rgba(15, 15, 15, 0.85); /* ఇండస్ట్రియల్ ఫోటోల కోసం ప్రీమియం మ్యాట్ బ్లాక్ షాడో */
+}
+
+.industrial-info-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 8px 0;
+  transform: translateY(15px);
+  transition: transform 0.5s ease;
+}
+
+.industrial-info-title::after {
+  content: '';
+  width: 25px;
+  border-top: 3px solid #fff;
+  display: block;
+  margin: 12px auto 0;
+}
+
+.industrial-info-text {
+  color: #cccccc;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 80%;
+  margin: 0;
+  transform: translateY(15px);
+  transition: transform 0.5s ease;
+}
+
+.event-card:hover .industrial-info-title,
+.event-card:hover .industrial-info-text {
+  transform: translateY(0);
+}
+
+/* ==========================================================================
+   🎯 POPUP FIXED CENTER WITH HORIZONTAL MOUSE WHEEL SCROLL
+   ========================================================================== */
+.cinema-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(5, 5, 5, 0.98); 
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* బ్యాక్ బటన్ */
+.close-gallery {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 10px 22px;
+  font-size: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 1000000;
+}
+
+.close-gallery:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* హారిజాంటల్ ట్రాక్ */
+.cinema-track {
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+  width: 100vw;
+  height: 80vh;
+  overflow-x: scroll; 
+  overflow-y: hidden; 
+  scroll-behavior: smooth;
+  padding: 0 5%;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.cinema-track::-webkit-scrollbar {
+  display: none;
+}
+
+/* స్లైడ్ బాక్స్ */
+.cinema-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto; 
+  max-width: 80vw; 
+  height: 100%;
+  margin-right: 80px; 
+  flex-shrink: 0; 
+  box-sizing: border-box;
+}
+
+/* ఇమేజ్ అలైన్‌మెంట్ (Vertical Images Safe) */
+.cinema-slide img {
+  max-width: 100%; 
+  max-height: 65vh; 
+  width: auto !important; 
+  height: auto !important; 
+  object-fit: contain; 
+  border-radius: 6px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6);
+  display: block;
+}
+
+.cinema-info {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  white-space: normal; 
+}
+
+.cinema-info h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 6px 0;
+}
+
+.cinema-info p {
+  color: #b3b3b3;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* HIDE UTILITY */
+.hide-content {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+/* ==========================================================================
+   📱 100% RESPONSIVE MEDIA QUERIES
+   ========================================================================== */
+@media(max-width: 1024px) {
+  .gallery-grid {
+    column-count: 2; /* టాబ్లెట్స్ లో 2 కాలమ్స్ */
+    column-gap: 14px;
+  }
+  .event-card { margin-bottom: 14px; }
+  .industrial-info-title { font-size: 18px; }
+  .cinema-slide { max-width: 85vw; margin-right: 40px; }
+  .close-gallery { top: 20px; left: 20px; }
+}
+
+@media(max-width: 650px) {
+  .gallery-grid {
+    column-count: 1; /* మొబైల్స్ లో ఒకే కాలమ్ */
+    column-gap: 0;
+  }
+  .event-card { margin-bottom: 16px; }
+  .cinema-slide { max-width: 90vw; margin-right: 20px; }
+  
+  .industrial-info { 
+    opacity: 1; 
+    background: linear-gradient(to top, rgba(15, 15, 15, 0.95), transparent 70%);
+    justify-content: flex-end;
+    padding-bottom: 15px;
+  }
+  .industrial-info-title, .industrial-info-text { transform: translateY(0); }
+}

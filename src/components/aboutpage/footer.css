@@ -1,0 +1,172 @@
+/* FOOTER */
+.about-footer{
+  width: 100%;
+ 
+
+  padding-top: 90px;
+
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+/* CONTENT */
+.footer-content{
+  width: 85%;
+  max-width: 1200px;
+
+  margin: auto;
+
+  text-align: center;
+}
+
+/* TITLE */
+.footer-content h2{
+  color: #fff;
+
+  font-size: 40px;
+  font-weight: 300;
+
+  margin-bottom: 18px;
+
+  letter-spacing: 2px;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+/* TAGLINE */
+.footer-tagline{
+  color: rgba(255,255,255,0.7);
+
+  font-size: 16px;
+  font-weight: 300;
+
+  margin-bottom: 45px;
+
+  letter-spacing: 0.5px;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+/* LINKS */
+.footer-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 18px;
+
+  flex-wrap: wrap;
+
+  margin-bottom: 45px;
+}
+
+/* LINK BUTTON */
+.footer-links a{
+  color: #fff;
+
+  text-decoration: none;
+
+  border: 1px solid rgba(255,255,255,0.15);
+
+  padding: 12px 24px;
+
+  font-size: 14px;
+  font-weight: 400;
+
+  letter-spacing: 1px;
+
+  transition: all 0.4s ease;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+/* HOVER */
+
+.footer-links a:hover{
+
+  background: #fff;
+
+  color: #000;
+
+  transform: translateY(-4px);
+
+}
+/* CONTACT */
+.footer-contact p{
+  color: rgba(255,255,255,0.65);
+
+  font-size: 15px;
+  font-weight: 300;
+letter-spacing: 1px;
+  margin-bottom: 12px;
+font-style: italic;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* COPYRIGHT */
+.footer-bottom{
+  margin-top: 70px;
+
+  padding: 22px 0;
+
+  border-top: 1px solid rgba(255,255,255,0.08);
+
+  text-align: center;
+}
+
+.footer-bottom p{
+  color: rgba(255,255,255,0.45);
+
+  font-size: 13px;
+
+  letter-spacing: 1px;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+/* TABLET */
+@media(max-width:992px){
+
+  .about-footer{
+    padding-top: 70px;
+  }
+
+  .footer-content h2{
+    font-size: 32px;
+  }
+
+  .footer-tagline{
+    font-size: 15px;
+  }
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+  .footer-content{
+    width: 90%;
+  }
+
+  .footer-content h2{
+    font-size: 26px;
+
+    line-height: 1.4;
+  }
+
+  .footer-links{
+    gap: 12px;
+  }
+
+  .footer-links a{
+    padding: 10px 18px;
+
+    font-size: 13px;
+  }
+
+  .footer-contact p{
+    font-size: 14px;
+  }
+
+  .footer-bottom{
+    margin-top: 50px;
+  }
+}
