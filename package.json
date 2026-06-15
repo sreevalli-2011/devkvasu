@@ -5,13 +5,13 @@
   "homepage": "https://github.com/sreevalli-2011/devkvasu",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-     "predeploy": "npm run build",
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
-  },
+},
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "bootstrap": "^5.3.8",
