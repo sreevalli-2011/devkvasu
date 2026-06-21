@@ -16,7 +16,7 @@ import im7 from "../assets/images/unit-im/im-7.jpg";
 import im8 from "../assets/images/unit-im/im-8.JPG";
 import im9 from "../assets/images/unit-im/im-9.jpg";
 import im10 from "../assets/images/unit-im/im-10.jpg";
-import im17 from "../assets/images/unit-im/im-17.JPG";
+import im17 from "../assets/images/unit-im/im-17.Jpg";
 import im12 from "../assets/images/unit-im/im-12.jpg";
 import im13 from "../assets/images/unit-im/im13.jpg";
 
