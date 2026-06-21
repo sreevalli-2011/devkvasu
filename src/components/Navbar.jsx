@@ -40,8 +40,12 @@ const Navbar = () => {
 <ul className="menu">
   {navItems.map((item) => (
     <li key={item.name}>
-    <NavLink
+  
+<NavLink
   to={item.to}
+  className={({ isActive }) =>
+    isActive ? "active-link" : ""
+  }
   onClick={() => setMobileMenuOpen(false)}
 >
         {item.name}
