@@ -1,6 +1,6 @@
 
 import { useState, useRef, useEffect } from "react";
-import "./Chatbot.css";
+import "./chatbot.css";
 import chatbot_1 from "../assets/images/chatbot_1.png";
 import { getGeminiResponse } from "./GeminiAPI";
 
