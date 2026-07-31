@@ -1,0 +1,168 @@
+/* ===========================================
+   NATURE subheading
+=========================================== */
+
+/* ==========================================
+   PAGE HEADER
+========================================== */
+
+.nature-header{
+    padding:100px 20px 40px;
+    text-align:center;
+   
+}
+
+.nature-header h1{
+    color:#fff;
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.nature-header p{
+    color:#cfcfcf;
+    font-size:1rem;
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+/* ===========================================
+   NATURE GALLERY
+=========================================== */
+
+.nature-grid{
+    column-count:4;
+    column-gap:12px;
+    width:100%;
+}
+
+.nature-card{
+    position:relative;
+    display:inline-block;
+    width:100%;
+    margin-bottom:12px;
+    overflow:hidden;
+    border-radius:14px;
+    cursor:pointer;
+    background:#111;
+
+    break-inside:avoid;
+    -webkit-column-break-inside:avoid;
+    page-break-inside:avoid;
+}
+
+.nature-card img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:14px;
+    transition:.5s;
+}
+
+.nature-card:hover img{
+    transform:scale(1.05);
+}
+
+/* ===========================================
+   Overlay
+=========================================== */
+
+.nature-overlay{
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:20px;
+
+    background:rgba(0,0,0,.45);
+
+    opacity:0;
+
+    transition:.4s;
+}
+
+.nature-card:hover .nature-overlay{
+    opacity:1;
+}
+
+.nature-title{
+    color:#fff;
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:10px;
+
+    transform:translateY(20px);
+    transition:.4s;
+}
+
+.nature-text{
+    color:#ddd;
+    font-size:15px;
+    line-height:1.6;
+
+    transform:translateY(20px);
+    transition:.4s;
+}
+
+.nature-card:hover .nature-title,
+.nature-card:hover .nature-text{
+    transform:translateY(0);
+}
+
+/* ===========================================
+   Responsive
+=========================================== */
+
+@media(max-width:1200px){
+
+.nature-grid{
+column-count:3;
+}
+
+}
+
+@media(max-width:992px){
+
+.nature-grid{
+column-count:2;
+}
+
+.nature-title{
+font-size:20px;
+}
+
+}
+
+@media(max-width:600px){
+
+.nature-grid{
+column-count:1;
+}
+
+.nature-overlay{
+opacity:.9;
+}
+
+.nature-title{
+font-size:18px;
+}
+
+.nature-text{
+font-size:13px;
+}
+
+}
+
+/* Left-aligned overlay variant */
+.nature-overlay.left{
+    align-items:flex-start;
+    text-align:left;
+    padding-left:24px;
+    padding-right:24px;
+}

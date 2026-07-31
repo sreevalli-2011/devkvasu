@@ -22,7 +22,8 @@ const Navbar = () => {
     { name: "Unitstills", to: "/unitstills" },
     { name: "Events", to: "/events" },
     { name: "Industrial", to: "/industrial" },
-    { name: "BehindScenes", to: "/behindscenes" },
+    {name: "Gallery", to: "/gallery"},
+    { name: "MoviePosters", to: "/movieposters" },
     { name: "Contact", to: "/contact" },
   ];
 

@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
-import "./events.css"; // మీ అప్‌డేట్ చేసిన events.css కి ఇది సింక్ అవుతుంది
+import "./events.css"; 
+import AboutFooter from "./aboutpage/AboutFooter";
 
 /* =========================
    IMAGE IMPORTS
@@ -181,6 +182,8 @@ const Events = ({ overlayOpen }) => {
 
         </div>
       )}
+
+         <AboutFooter />
     </div>
   );
 };

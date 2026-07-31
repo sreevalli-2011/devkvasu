@@ -1,21 +1,22 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./unitgallery.css";
+import AboutFooter from "./aboutpage/AboutFooter";
 
 
 /* =========================
    IMAGE IMPORTS
 ========================= */
 
-import im1 from "../assets/images/unit-im/im-1.JPG";
-import im2 from "../assets/images/unit-im/im-2.jpg";
-import im3 from "../assets/images/unit-im/im-3.png";
+import im18 from "../assets/images/unit-im/im-18.JPG";
+import im19 from "../assets/images/unit-im/im-19.jpg";
+import im20 from "../assets/images/unit-im/im-20.jpg";
 import im4 from "../assets/images/unit-im/im-4.JPG";
 import im5 from "../assets/images/unit-im/im-5.jpg";
 import im6 from "../assets/images/unit-im/im-6.jpg";
 import im7 from "../assets/images/unit-im/im-7.jpg";
 import im8 from "../assets/images/unit-im/im-8.JPG";
 import im9 from "../assets/images/unit-im/im-9.jpg";
-import im10 from "../assets/images/unit-im/im-10.jpg";
+import im21 from "../assets/images/unit-im/im-21.jpg";
 import im17 from "../assets/images/unit-im/im-17.Jpg";
 import im12 from "../assets/images/unit-im/im-12.jpg";
 import im13 from "../assets/images/unit-im/im13.jpg";
@@ -27,19 +28,19 @@ import im13 from "../assets/images/unit-im/im13.jpg";
 const galleryItems = [
 
   {
-    src: im1,
+    src: im18,
     title: "Cinematic Drama",
     description: "A moody cinematic still."
   },
 
   {
-    src: im2,
+    src: im19,
     title: "Production Motion",
     description: "Dynamic motion production frame."
   },
 
   {
-    src: im3,
+    src: im20,
     title: "Portrait Dialogue",
     description: "Editorial portrait storytelling."
   },
@@ -81,7 +82,7 @@ const galleryItems = [
   },
 
   {
-    src: im10,
+    src: im21,
     title: "Location Detail",
     description: "Architectural cinematic frame."
   },
@@ -292,6 +293,7 @@ const UnitStillsGallery = ({ overlayOpen }) => {
         </div>
 
       )}
+          <AboutFooter />
 
     </div>
 

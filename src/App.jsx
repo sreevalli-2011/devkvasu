@@ -9,7 +9,17 @@ import Events from "./components/Events";
 import Industrial from "./components/Industrial";
 import Contact from "./components/Contact";
 import ChatBot from "./components/ChatBot";
-import BehindScenes from "./components/BehindScenes";
+import Movie from "./components/Movie";
+
+// Portfolio Components
+import Gallery from "./components/portfolio/Gallery";
+import PortraitPhotography from "./components/portfolio/PortraitPhotography";
+import SchoolEvents from "./components/portfolio/SchoolEvents";
+import CampginPhotography from "./components/portfolio/CampginPhotography";
+import ProductPhotography from "./components/portfolio/ProductPhotography";
+import NaturePhotography from "./components/portfolio/NaturePhotography";
+import FoodPhotography from "./components/portfolio/FoodPhotography";
+
 
 import "./App.css";
 
@@ -37,7 +47,45 @@ function App() {
 
           <Route path="/contact" element={<Contact overlayOpen={overlayOpen} />} />
 
-          <Route path="/behindscenes" element={<BehindScenes overlayOpen={overlayOpen} />} />
+         
+
+          <Route path="/movieposters" element={<Movie overlayOpen={overlayOpen} />} />
+          <Route path="/gallery" element={<Gallery overlayOpen={overlayOpen} />} />
+          <Route
+  path="/portrait-photography"
+  element={<PortraitPhotography />}
+/>
+
+<Route
+  path="/school-events"
+  element={<SchoolEvents />}
+/>
+
+
+
+<Route
+  path="/campgin-photography"
+  element={<CampginPhotography />}
+/>
+
+<Route
+  path="/product-photography"
+  element={<ProductPhotography />}
+/>
+
+<Route
+  path="/naturephotography"
+  element={<NaturePhotography />}
+/>
+<Route
+  path="/schoolevents"
+  element={<SchoolEvents />}
+/>
+
+<Route
+  path="/food-photography"
+  element={<FoodPhotography />}
+/>
         </Routes>
       </Router>
 

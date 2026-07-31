@@ -5,16 +5,31 @@ import "./aboutpage/abouthero.css";
 /* =========================
    IMPORT YOUR IMAGES HERE (DO NOT CHANGE)
 ========================= */
-import im1 from "../assets/images/ind-im/im-1.jpg";
-import im2 from "../assets/images/ind-im/im-2.jpg";
-import im3 from "../assets/images/ind-im/im-3.jpg";
-import im4 from "../assets/images/ind-im/im-4.jpg";
-import im5 from "../assets/images/ind-im/im-5.jpg";
-import im6 from "../assets/images/ind-im/im-6.jpg";
-import im7 from "../assets/images/ind-im/im-7.jpg";
-import im8 from "../assets/images/ind-im/im-8.jpg";
-import im9 from "../assets/images/ind-im/im-9.jpg";
-import im10 from "../assets/images/ind-im/im-10.jpg";
+import im1 from "../assets/images/ind-im/im-13.jpg";
+import im2 from "../assets/images/ind-im/im-12.jpg";
+import im3 from "../assets/images/ind-im/im-18.jpg";
+import im4 from "../assets/images/ind-im/im-14.jpg";
+import im5 from "../assets/images/ind-im/im-19 .jpg";
+import im6 from "../assets/images/ind-im/im-20.jpg";
+import im7 from "../assets/images/ind-im/im-11.jpg";
+import im8 from "../assets/images/ind-im/im-15.jpg";
+import im9 from "../assets/images/ind-im/im-16.jpg";
+import im10 from "../assets/images/ind-im/im-17.jpg";
+import im11 from "../assets/images/ind-im/im-21.jpg";
+import im12 from "../assets/images/ind-im/im-22.jpg";
+import im13 from "../assets/images/ind-im/im-23.jpg";
+import im14 from "../assets/images/ind-im/im-24.jpg";
+import im15 from "../assets/images/ind-im/im-25.jpg";
+import im16 from "../assets/images/ind-im/im-26.jpg";
+import im17 from "../assets/images/ind-im/im-27.jpg";
+import im18 from "../assets/images/ind-im/im-29.jpg";
+import im19 from "../assets/images/ind-im/im-30.jpg";
+import im20 from "../assets/images/ind-im/im-31.jpg";
+
+
+
+
+
 
 const images = [
   { src: im1, title: "Industrial Precision", description: "Modern industrial workflow and cinematic visual storytelling." },
@@ -26,7 +41,17 @@ const images = [
   { src: im7, title: "Visual Engineering", description: "Blending technical environments with artistic storytelling." },
   { src: im8, title: "Commercial Detail", description: "Focused compositions for premium industrial presentation." },
   { src: im9, title: "Industrial Motion", description: "Capturing movement and cinematic realism in production spaces." },
-  { src: im10, title: "Modern Industry", description: "Immersive photography experience with commercial aesthetics." }
+  { src: im10, title: "Modern Industry", description: "Immersive photography experience with commercial aesthetics." },
+   { src: im11, title: "Innovative Design", description: "Showcasing cutting-edge industrial design and functionality." },
+   { src: im12, title: "Innovative Design", description: "Showcasing cutting-edge industrial design and functionality." },
+   { src: im13, title: "Innovative Design", description: "Showcasing cutting-edge industrial design and functionality." },
+    { src: im14, title: "Innovative Design", description: "Showcasing cutting-edge industrial design and functionality." },
+    { src: im15, title: "Innovative Design", description: "Showcasing cutting-edge industrial design and functionality." },
+    { src: im16, title: "Innovative Design", description: "Showcasing cutting-edge industrial design and functionality." },
+    { src: im17, title: "Innovative Design", description: "Showcasing cutting-edge industrial design and functionality." },
+    { src: im18, title: "Innovative Design", description: "Showcasing cutting-edge industrial design and functionality." },
+    { src: im19, title: "Innovative Design", description: "Showcasing cutting-edge industrial design and functionality." },
+    { src: im20, title: "Innovative Design", description: "Showcasing cutting-edge industrial design and functionality." },
 ];
 
 const Industrial = ({ overlayOpen }) => {
@@ -34,7 +59,7 @@ const Industrial = ({ overlayOpen }) => {
   const trackRef = useRef(null);
 
   /* =========================
-     🎯 OPEN POPUP (సరిచేయబడిన లేఅవుట్ సెంటరింగ్)
+     🎯 OPEN POPUP 
   ========================= */
   const openGallery = (index) => {
     setSelectedIndex(index);
@@ -63,7 +88,7 @@ const Industrial = ({ overlayOpen }) => {
   };
 
   /* =========================
-     HORIZONTAL SCROLL (మౌస్ వీల్ ఇంటరాక్షన్)
+     HORIZONTAL SCROLL 
   ========================= */
   useEffect(() => {
     const track = trackRef.current;
