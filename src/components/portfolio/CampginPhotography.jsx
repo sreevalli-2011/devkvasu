@@ -13,7 +13,7 @@ import AboutFooter from "../aboutpage/AboutFooter";
 ========================= */
 
 import im1 from "../../assets/images/campgin/im-1.jpg";
-import im3 from "../../assets/images/campgin/im-3.jpg";
+import im3 from "../../assets/images/campgin/im-3.JPG";
 import im17 from "../../assets/images/campgin/im-4.jpg";
 import im2 from "../../assets/images/campgin/im-2.jpg";
 import im4 from "../../assets/images/campgin/im-4.JPG";
