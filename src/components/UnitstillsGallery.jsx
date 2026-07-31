@@ -20,6 +20,7 @@ import im10 from "../assets/images/unit-im/im-10.jpg";
 import im17 from "../assets/images/unit-im/im-17.jpg";
 import im12 from "../assets/images/unit-im/im-12.jpg";
 import im13 from "../assets/images/unit-im/im13.jpg";
+import im21 from "../assets/images/unit-im/im-21.jpg";
 
 /* =========================
    GALLERY DATA

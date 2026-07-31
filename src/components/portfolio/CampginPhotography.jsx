@@ -14,7 +14,7 @@ import AboutFooter from "../aboutpage/AboutFooter";
 
 import im1 from "../../assets/images/campgin/im-1.jpg";
 import im3 from "../../assets/images/campgin/im-3.JPG";
-import im17 from "../../assets/images/campgin/im-4.jpg";
+import im17 from "../../assets/images/campgin/im-17.jpg";
 import im2 from "../../assets/images/campgin/im-2.jpg";
 import im4 from "../../assets/images/campgin/im-4.JPG";
 import im5 from "../../assets/images/campgin/im-5.jpg";
@@ -29,13 +29,7 @@ import im13 from "../../assets/images/campgin/im-13.jpg";
 
 
 
-import im14 from "../../assets/images/food/im-14.jpg";
 
-import im15 from "../../assets/images/food/im-15.jpg";
-import im16 from "../../assets/images/food/im-16.jpg";
-import im18 from "../../assets/images/food/im-18.jpg";
-
-import im19 from "../../assets/images/food/im-19.jpg";
 
 
 /* =========================
@@ -115,29 +109,10 @@ const galleryItems = [
     title: "Sweet Moment",
     description: "A dessert scene styled for luxury food photography."
   },
-   {
-    src: im14,
-    title: "Savory Delight",
-    description: "A hearty dish presented with rich textures and warm lighting."
-  },
+ 
 
-  {
-    src: im19,
-    title: "Beverage Beauty",
-    description: "A refreshing drink shot captured with luminous styling and clean presentation."
-  },
-
-    {
-    src: im18,
-    title: "Beverage Beauty",
-    description: "A refreshing drink shot captured with luminous styling and clean presentation."
-  },
-    {
-    src: im19,
-    title: "Beverage Beauty",
-    description: "A refreshing drink shot captured with luminous styling and clean presentation."
-  }
-    
+ 
+   
 
 
 ];

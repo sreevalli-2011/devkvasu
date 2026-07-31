@@ -22,7 +22,7 @@ import im11 from "../../assets/images/school/im-11.jpg";
 import im12 from "../../assets/images/school/im-12.jpg";
 import im13 from "../../assets/images/school/im-13.jpg";
 
-import im26 from "../../assets/images/school/im-26.jpg";
+
 
 import im14 from "../../assets/images/school/im-14.jpg";
 
