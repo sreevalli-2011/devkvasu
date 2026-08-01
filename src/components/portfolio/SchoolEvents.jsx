@@ -8,9 +8,8 @@ import AboutFooter from "../aboutpage/AboutFooter";
 ========================= */
 
 import im1 from "../../assets/images/school/im-1.jpg";
-import im3 from "../../assets/images/school/im-3.jpg";
-import im17 from "../../assets/images/school/im-17.jpg";
 import im2 from "../../assets/images/school/im-2.jpg";
+import im3 from "../../assets/images/school/im-3.jpg";
 import im4 from "../../assets/images/school/im-4.jpg";
 import im5 from "../../assets/images/school/im-5.jpg";
 import im6 from "../../assets/images/school/im-6.jpg";
@@ -21,141 +20,139 @@ import im10 from "../../assets/images/school/im-10.jpg";
 import im11 from "../../assets/images/school/im-11.jpg";
 import im12 from "../../assets/images/school/im-12.jpg";
 import im13 from "../../assets/images/school/im-13.jpg";
-
-
-
 import im14 from "../../assets/images/school/im-14.jpg";
-
 import im15 from "../../assets/images/school/im-15.jpg";
 import im16 from "../../assets/images/school/im-16.jpg";
+import im17 from "../../assets/images/school/im-17.jpg";
 import im18 from "../../assets/images/school/im-18.jpg";
-
 import im19 from "../../assets/images/school/im-19.jpg";
 import im20 from "../../assets/images/school/im-20.jpg";
 import im21 from "../../assets/images/school/im-21.jpg";
+import im22 from "../../assets/images/school/im-22.JPG";
 import im23 from "../../assets/images/school/im-23.JPG";
+import im24 from "../../assets/images/school/im-24.JPG";
+import im25 from "../../assets/images/school/im-25.JPG";
+import im26 from "../../assets/images/school/im-26.JPG";
 
 /* =========================
    GALLERY DATA
 ========================= */
 
 const galleryItems = [
-
   {
     src: im1,
-    title: "Gourmet Platter",
-    description: "A beautifully plated gourmet dish with rich textures and vibrant colors."
+    title: "School Campus",
+    description: "A welcoming view of the school campus and its surroundings."
   },
-
   {
     src: im2,
-    title: "Fresh Ingredients",
-    description: "A close-up of fresh ingredients arranged for a modern culinary story."
+    title: "Academic Building",
+    description: "Modern educational facilities captured with clean architectural composition."
   },
-
   {
     src: im3,
-    title: "Artisan Dessert",
-    description: "A delicate dessert styled with elegant details and moody lighting."
+    title: "Learning Environment",
+    description: "Students engaged in a productive classroom learning experience."
   },
-
   {
     src: im4,
-    title: "Rustic Comfort",
-    description: "A cozy, rustic food scene featuring warm tones and home-style plating."
+    title: "Classroom Activity",
+    description: "Interactive classroom moments that highlight active learning."
   },
-
   {
     src: im5,
-    title: "Brunch Spread",
-    description: "A bright brunch arrangement showcasing fresh produce and indulgent dishes."
+    title: "Library Session",
+    description: "Students exploring knowledge in a calm library environment."
   },
-
   {
     src: im6,
-    title: "Chef’s Special",
-    description: "A chef-curated plate captured with dramatic studio lighting."
+    title: "School Event",
+    description: "Memorable moments from a vibrant school celebration."
   },
-
   {
     src: im7,
-    title: "Culinary Story",
-    description: "A narrative food composition that highlights flavor, color, and texture."
+    title: "Student Excellence",
+    description: "Students demonstrating confidence and academic achievement."
   },
-
   {
     src: im8,
-    title: "Seasonal Feast",
-    description: "A seasonal selection presented with vivid styling and fresh ingredients."
+    title: "Outdoor Learning",
+    description: "Educational activities conducted beyond the classroom."
   },
-
   {
     src: im9,
-    title: "Harvest Bowl",
-    description: "A wholesome harvest bowl captured with natural light and rich detail."
+    title: "Student Portrait",
+    description: "Professional portraits capturing confidence and personality."
   },
-
   {
-    src: im17,
-    title: "Elegant Plating",
-    description: "A polished culinary plate designed for commercial food branding."
+    src: im10,
+    title: "Team Spirit",
+    description: "Students working together with enthusiasm and collaboration."
   },
-
+  {
+    src: im11,
+    title: "Sports Achievement",
+    description: "Capturing determination and excellence in school sports."
+  },
   {
     src: im12,
-    title: "Salad Symphony",
-    description: "A colorful salad composition with crisp greens and vibrant accents."
+    title: "School Life",
+    description: "Natural moments reflecting everyday student life."
   },
-
   {
     src: im13,
-    title: "Sweet Moment",
-    description: "A dessert scene styled for luxury food photography."
+    title: "Creative Learning",
+    description: "Students participating in hands-on educational activities."
   },
-   {
+  {
     src: im14,
-    title: "Savory Delight",
-    description: "A hearty dish presented with rich textures and warm lighting."
+    title: "Campus Landscape",
+    description: "Beautiful outdoor spaces that inspire learning."
   },
-
+  {
+    src: im15,
+    title: "Athletic Performance",
+    description: "Action-packed sports photography showcasing talent."
+  },
+  {
+    src: im16,
+    title: "Sports Practice",
+    description: "Students building teamwork through athletic activities."
+  },
+  {
+    src: im17,
+    title: "Achievement Moment",
+    description: "Celebrating dedication and success in academics and sports."
+  },
+  {
+    src: im18,
+    title: "School Marathon",
+    description: "Students participating enthusiastically in a marathon event."
+  },
   {
     src: im19,
-    title: "Beverage Beauty",
-    description: "A refreshing drink shot captured with luminous styling and clean presentation."
+    title: "Cultural Performance",
+    description: "Traditional performances celebrating creativity and talent."
   },
-  
-    {
-    src: im18,
-    title: "Beverage Beauty",
-    description: "A refreshing drink shot captured with luminous styling and clean presentation."
-  },
-    {
-    src: im19,
-    title: "Beverage Beauty",
-    description: "A refreshing drink shot captured with luminous styling and clean presentation."
-  },
-    {
+  {
     src: im20,
-    title: "Beverage Beauty",
-    description: "A refreshing drink shot captured with luminous styling and clean presentation."
+    title: "Digital Learning",
+    description: "Modern classroom experiences supported by technology."
   },
-    {
+  {
     src: im21,
-    title: "Beverage Beauty",
-    description: "A refreshing drink shot captured with luminous styling and clean presentation."
+    title: "Student Interaction",
+    description: "Friends learning and growing together on campus."
   },
-   
-    {
+  {
     src: im23,
-    title: "Beverage Beauty",
-    description: "A refreshing drink shot captured with luminous styling and clean presentation."
-  },
-
-
+    title: "School Environment",
+    description: "A peaceful campus atmosphere that supports education."
+  }
 ];
 
 
-const schoolevents = ({ overlayOpen }) => {
+const SchoolEvents = ({ overlayOpen }) => {
 
   const [selectedIndex, setSelectedIndex] = useState(null);
 

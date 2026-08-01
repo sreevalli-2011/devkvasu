@@ -12,22 +12,21 @@ import AboutFooter from "../aboutpage/AboutFooter";
    IMAGE IMPORTS
 ========================= */
 
+
 import im1 from "../../assets/images/campgin/im-1.jpg";
-import im3 from "../../assets/images/campgin/im-3.JPG";
-import im17 from "../../assets/images/campgin/im-17.jpg";
 import im2 from "../../assets/images/campgin/im-2.jpg";
-import im4 from "../../assets/images/campgin/im-4.JPG";
-import im5 from "../../assets/images/campgin/im-5.jpg";
+import im3 from "../../assets/images/campgin/im-3.JPG";
+import im4 from "../../assets/images/campgin/im-4.jpg";
+import im5 from "../../assets/images/campgin/im-5.JPG";
 import im6 from "../../assets/images/campgin/im-6.jpg";
 import im7 from "../../assets/images/campgin/im-7.jpg";
-import im8 from "../../assets/images/campgin/im-8.jpg";
+import im8 from "../../assets/images/campgin/im-8.JPG";
 import im9 from "../../assets/images/campgin/im-9.jpg";
 import im10 from "../../assets/images/campgin/im-10.jpg";
 import im11 from "../../assets/images/campgin/im-11.jpg";
 import im12 from "../../assets/images/campgin/im-12.jpg";
 import im13 from "../../assets/images/campgin/im-13.jpg";
-
-
+import im17 from "../../assets/images/campgin/im-17.jpg";
 
 
 
@@ -40,80 +39,75 @@ const galleryItems = [
 
   {
     src: im1,
-    title: "Gourmet Platter",
-    description: "A beautifully plated gourmet dish with rich textures and vibrant colors."
+    title: "Campaign Launch",
+    description: "A striking visual created to introduce a brand's latest campaign."
   },
 
   {
     src: im2,
-    title: "Fresh Ingredients",
-    description: "A close-up of fresh ingredients arranged for a modern culinary story."
+    title: "Product Branding",
+    description: "A professionally styled product photograph designed for brand promotion."
   },
 
   {
     src: im3,
-    title: "Artisan Dessert",
-    description: "A delicate dessert styled with elegant details and moody lighting."
+    title: "Lifestyle Portrait",
+    description: "A lifestyle image crafted to connect audiences with the brand story."
   },
 
   {
     src: im4,
-    title: "Rustic Comfort",
-    description: "A cozy, rustic food scene featuring warm tones and home-style plating."
+    title: "Creative Campaign",
+    description: "A commercial campaign image with bold composition and visual impact."
   },
 
   {
     src: im5,
-    title: "Brunch Spread",
-    description: "A bright brunch arrangement showcasing fresh produce and indulgent dishes."
+    title: "Product Showcase",
+    description: "A clean product presentation designed for advertising and marketing."
   },
 
   {
     src: im6,
-    title: "Chef’s Special",
-    description: "A chef-curated plate captured with dramatic studio lighting."
+    title: "Brand Identity",
+    description: "A campaign photograph highlighting the brand's unique identity."
   },
 
   {
     src: im7,
-    title: "Culinary Story",
-    description: "A narrative food composition that highlights flavor, color, and texture."
+    title: "Commercial Portrait",
+    description: "A portrait captured for advertising, promotional, and marketing campaigns."
   },
 
   {
     src: im8,
-    title: "Seasonal Feast",
-    description: "A seasonal selection presented with vivid styling and fresh ingredients."
+    title: "Creative Advertising",
+    description: "An eye-catching image developed for digital and print advertising."
   },
 
   {
     src: im9,
-    title: "Harvest Bowl",
-    description: "A wholesome harvest bowl captured with natural light and rich detail."
+    title: "Lifestyle Branding",
+    description: "A lifestyle campaign that creates an authentic brand connection."
   },
 
   {
     src: im17,
-    title: "Elegant Plating",
-    description: "A polished culinary plate designed for commercial food branding."
+    title: "Signature Campaign",
+    description: "A premium campaign image designed for impactful brand storytelling."
   },
 
   {
     src: im12,
-    title: "Salad Symphony",
-    description: "A colorful salad composition with crisp greens and vibrant accents."
+    title: "Visual Story",
+    description: "A compelling campaign photograph that communicates the brand message."
   },
 
   {
     src: im13,
-    title: "Sweet Moment",
-    description: "A dessert scene styled for luxury food photography."
-  },
- 
-
- 
-   
-
+    title: "Brand Promotion",
+    description: "A high-quality promotional image created for commercial marketing."
+  }
 
 ];
 

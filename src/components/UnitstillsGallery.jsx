@@ -7,9 +7,15 @@ import AboutFooter from "./aboutpage/AboutFooter";
    IMAGE IMPORTS
 ========================= */
 
+/* =========================
+   IMAGE IMPORTS
+========================= */
+
 import im18 from "../assets/images/unit-im/im-18.jpg";
 import im19 from "../assets/images/unit-im/im-19.jpg";
 import im20 from "../assets/images/unit-im/im-20.jpg";
+import im21 from "../assets/images/unit-im/im-21.jpg";
+
 import im4 from "../assets/images/unit-im/im-4.JPG";
 import im5 from "../assets/images/unit-im/im-5.jpg";
 import im6 from "../assets/images/unit-im/im-6.jpg";
@@ -17,11 +23,9 @@ import im7 from "../assets/images/unit-im/im-7.jpg";
 import im8 from "../assets/images/unit-im/im-8.JPG";
 import im9 from "../assets/images/unit-im/im-9.jpg";
 import im10 from "../assets/images/unit-im/im-10.jpg";
-import im17 from "../assets/images/unit-im/im-17.jpg";
 import im12 from "../assets/images/unit-im/im-12.jpg";
 import im13 from "../assets/images/unit-im/im13.jpg";
-import im21 from "../assets/images/unit-im/im-21.jpg";
-
+import im17 from "../assets/images/unit-im/im-17.jpg";
 /* =========================
    GALLERY DATA
 ========================= */
