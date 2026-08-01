@@ -7,28 +7,29 @@ import AboutFooter from "../aboutpage/AboutFooter";
    IMAGE IMPORTS
 ========================= */
 
-import im1 from "../../assets/images/product/im-1.jpg";
-import im3 from "../../assets/images/product/im-3.jpg";
-import im17 from "../../assets/images/product/im-4.jpg";
-import im2 from "../../assets/images/product/im-2.jpg";
+
+/* =========================
+   IMAGE IMPORTS
+========================= */
+
+import im1 from "../../assets/images/product/im-1.JPG";
+import im2 from "../../assets/images/product/im-2.JPG";
+import im3 from "../../assets/images/product/im-3.JPG";
 import im4 from "../../assets/images/product/im-4.JPG";
-import im5 from "../../assets/images/product/im-5.jpg";
-import im6 from "../../assets/images/product/im-6.jpg";
-import im7 from "../../assets/images/product/im-7.jpg";
-import im8 from "../../assets/images/product/im-8.jpg";
-import im9 from "../../assets/images/product/im-9.jpg";
-import im10 from "../../assets/images/product/im-10.jpg";
-import im11 from "../../assets/images/product/im-11.jpg";
-import im12 from "../../assets/images/product/im-12.jpg";
-import im13 from "../../assets/images/product/im-13.jpg";
-
-
-import im14 from "../../assets/images/product/im-14.jpg";
-
-import im15 from "../../assets/images/product/im-15.jpg";
-import im16 from "../../assets/images/product/im-16.jpg";
-import im18 from "../../assets/images/product/im-18.jpg";
-
+import im5 from "../../assets/images/product/im-5.JPG";
+import im6 from "../../assets/images/product/im-6.JPG";
+import im7 from "../../assets/images/product/im-7.JPG";
+import im8 from "../../assets/images/product/im-8.JPG";
+import im9 from "../../assets/images/product/im-9.JPG";
+import im10 from "../../assets/images/product/im-10.JPG";
+import im11 from "../../assets/images/product/im-11.JPG";
+import im12 from "../../assets/images/product/im-12.JPG";
+import im13 from "../../assets/images/product/im-13.JPG";
+import im14 from "../../assets/images/product/im-14.JPG";
+import im15 from "../../assets/images/product/im-15.JPG";
+import im16 from "../../assets/images/product/im-16.JPG";
+import im17 from "../../assets/images/product/im-17.JPG";
+import im18 from "../../assets/images/product/im-18.JPG";
 
 
 /* =========================
@@ -39,91 +40,87 @@ const galleryItems = [
 
   {
     src: im1,
-    title: "Product 1",
-    description: "glasses with unique design and vibrant colors."
+    title: "Luxury Glassware",
+    description: "Premium glassware photographed with elegant studio lighting and refined composition."
   },
 
   {
     src: im2,
-    title: "Product 2",
-    description: "A close-up of a product with sleek packaging and modern aesthetics."
+    title: "Leather Accessories",
+    description: "Stylish leather accessories captured with clean product styling and sharp detail."
   },
 
   {
     src: im3,
-    title: "Product 3",
-    description: "A beautifully designed product with rich textures and vibrant colors."
+    title: "Designer Footwear",
+    description: "Modern footwear photographed to highlight craftsmanship and premium quality."
   },
 
   {
     src: im4,
-    title: "Product 4",
-    description: "A product shot with a focus on detail and craftsmanship."
+    title: "Gift Packaging",
+    description: "Creative product packaging presented with sophisticated commercial styling."
   },
 
   {
     src: im5,
-    title: "Product 5",
-    description: "A bright brunch arrangement showcasing fresh produce and indulgent dishes."
+    title: "Premium Gadget",
+    description: "Minimalist product photography emphasizing design, texture, and functionality."
   },
 
   {
     src: im6,
-    title: "Product 6",
-    description: "A sleek product shot with a modern aesthetic and clean presentation."
+    title: "Luxury Stationery",
+    description: "Professional stationery arranged with elegant styling for commercial branding."
   },
 
   {
     src: im7,
-    title: "Product 7",
-    description: "A stylish product shot with a modern aesthetic and clean presentation."
+    title: "Fashion Accessories",
+    description: "Premium accessories photographed with dramatic lighting and crisp details."
   },
 
   {
     src: im8,
-    title: "Product 8",
-    description: "A product shot with a focus on detail and craftsmanship."
+    title: "Lifestyle Product",
+    description: "Creative product composition designed for advertising and digital campaigns."
   },
 
   {
     src: im9,
-    title: "Product 9",
-    description: "A beautifully designed product with rich textures and vibrant colors."
+    title: "Premium Drinkware",
+    description: "Commercial product photography with rich reflections and luxury presentation."
   },
 
   {
     src: im17,
-    title: "Product 10",
-    description: "A sleek product shot with a modern aesthetic and clean presentation."
+    title: "Glass Collection",
+    description: "Elegant glass collection photographed with precision lighting and modern styling."
   },
 
   {
     src: im12,
-    title: "Product 11",
-    description: "A sleek product shot with a modern aesthetic and clean presentation."
+    title: "Decor Collection",
+    description: "Beautiful decorative product showcased with premium commercial photography."
   },
 
   {
     src: im13,
-    title: "Product 12",
-    description: "A beautifully designed product with rich textures and vibrant colors."
+    title: "Luxury Packaging",
+    description: "Clean product presentation highlighting premium packaging and branding."
   },
-   {
+
+  {
     src: im14,
-    title: "Product 13",
-    description: "A sleek product shot with a modern aesthetic and clean presentation."
+    title: "Crystal Glass",
+    description: "Professional studio shot emphasizing clarity, texture, and elegant design."
   },
 
-
- 
-    {
+  {
     src: im18,
-    title: "Beverage Beauty",
-    description: "A refreshing drink shot captured with luminous styling and clean presentation."
-  },
-
-
-
+    title: "Jewelry Collection",
+    description: "Luxury jewelry photographed with fine detail, rich textures, and premium lighting."
+  }
 
 ];
 

@@ -6,11 +6,9 @@ import AboutFooter from "../aboutpage/AboutFooter";
 /* =========================
    IMAGE IMPORTS
 ========================= */
-
-import im1 from "../../assets/images/nature/im-1.JPG";
-import im3 from "../../assets/images/nature/im-3.jpg";
-import im17 from "../../assets/images/nature/im-17.jpg";
+import im1 from "../../assets/images/nature/im-1.JPG"; // Note: Kept .JPG as per your image label, change to lowercase if file errors occur
 import im2 from "../../assets/images/nature/im-2.jpg";
+import im3 from "../../assets/images/nature/im-3.jpg";
 import im4 from "../../assets/images/nature/im-4.jpg";
 import im5 from "../../assets/images/nature/im-5.jpg";
 import im6 from "../../assets/images/nature/im-6.jpg";
@@ -24,6 +22,7 @@ import im13 from "../../assets/images/nature/im-13.jpg";
 import im14 from "../../assets/images/nature/im-14.jpg";
 import im15 from "../../assets/images/nature/im-15.jpg";
 import im16 from "../../assets/images/nature/im-16.jpg";
+import im17 from "../../assets/images/nature/im-17.jpg";
 import im18 from "../../assets/images/nature/im-18.jpg";
 
 /* =========================
@@ -31,75 +30,66 @@ import im18 from "../../assets/images/nature/im-18.jpg";
 ========================= */
 
 const galleryItems = [
-
   {
     src: im1,
     title: "Cinematic Still",
     description: "A cinematic still from a nature shoot."
   },
-
   {
     src: im2,
     title: "Dynamic Motion",
     description: "A dynamic motion frame from a nature shoot."
   },
-
   {
     src: im3,
     title: "Editorial Portrait",
     description: "A professional editorial portrait in a natural setting."
   },
-
   {
     src: im4,
     title: "Environmental Storytelling",
     description: "A nature scene that tells a story through its composition."
   },
-
   {
     src: im5,
     title: "Editorial Beauty",
     description: "A beauty shot captured in a natural environment."
   },
-
   {
     src: im6,
     title: "Studio Lighting",
     description: "A studio-lit portrait with a natural backdrop."
   },
-
   {
     src: im7,
     title: "Narrative Still",
     description: "A still image that conveys a narrative within a natural setting."
   },
-
   {
     src: im8,
     title: "Cinematic Motion",
     description: "Rich cinematic movement frame."
   },
-
   {
     src: im9,
     title: "Environmental Portrait",
     description: "A portrait captured within a natural environment."
   },
-
- 
-
   {
-    src: im17,
-    title: "Commercial Precision",
-    description: "Clean commercial production image."
+    src: im10,
+    title: "Scenic Landscape",
+    description: "Vibrant landscape view under expansive skies."
   },
-
+  {
+    src: im11,
+    title: "Heritage Structure",
+    description: "An architectural landmark framed by historical pathways."
+  },
   {
     src: im12,
     title: "Studio Portrait",
     description: "Soft cinematic portrait mood."
   },
-
   {
     src: im13,
     title: "Visual Story",
@@ -111,12 +101,27 @@ const galleryItems = [
     description: "Luxury photography presentation."
   },
   {
+    src: im15,
+    title: "Aerial perspective",
+    description: "A high-angle view capturing patterns in motion."
+  },
+  {
+    src: im16,
+    title: "Seasonal Bloom",
+    description: "Close-up macro shot of fresh botanical flora."
+  },
+  {
+    src: im17,
+    title: "Commercial Precision",
+    description: "Clean commercial production image."
+  },
+  {
     src: im18,
     title: "Mountain Majesty",
     description: "Breathtaking mountain landscape."
   }
-
 ];
+
 <section className="nature-header">
   <div className="container">
     <h1>Nature Photography</h1>
@@ -129,7 +134,7 @@ const galleryItems = [
   </div>
 </section>
 
-const UnitStillsGallery = ({ overlayOpen }) => {
+const NaturePhotography = ({ overlayOpen }) => {
 
   const [selectedIndex, setSelectedIndex] = useState(null);
 
@@ -343,4 +348,4 @@ const UnitStillsGallery = ({ overlayOpen }) => {
 
 };
 
-export default UnitStillsGallery;
+export default NaturePhotography;

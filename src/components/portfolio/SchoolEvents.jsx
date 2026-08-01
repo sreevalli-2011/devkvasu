@@ -362,4 +362,4 @@ const SchoolEvents = ({ overlayOpen }) => {
 
 };
 
-export default schoolevents;
+export default SchoolEvents;
