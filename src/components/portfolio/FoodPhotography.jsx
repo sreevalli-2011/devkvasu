@@ -22,7 +22,7 @@ import im8 from "../../assets/images/food/im-8.JPG";
 import im9 from "../../assets/images/food/im-9.JPG";
 import im10 from "../../assets/images/food/im-10.JPG";
 import im11 from "../../assets/images/food/im-11.JPG";
-import im12 from "../../assets/images/food/im-12.jpg";
+import im12 from "../../assets/images/food/im-12.JPG";
 import im13 from "../../assets/images/food/im-13.JPG";
 import im14 from "../../assets/images/food/im-14.JPG";
 import im15 from "../../assets/images/food/im-15.JPG";
