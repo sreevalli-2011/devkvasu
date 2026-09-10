@@ -12,18 +12,29 @@ export async function getGeminiResponse(message) {
 DevKVasu Photography
 
 Services:
-- Wedding Photography
-- Videography
-- Pre-Wedding Shoots
-- Birthday Events
-- Album Designing
+Events,
+Industrial,
+Press-Related,
+Portraits,
+Candid,
+Commercial,
+Fashion,
+Editorial,
+Product Photography,
+Real Estate Photography,
+- Unit stills photography for film, television, and streaming productions.
+- Marketing photography, key art, and cinematic movie poster campaigns.
+- Commercial advertising photography with full studio production support.
+- Talent image approvals management through a secure web-based review platform.
+
 
 Location:
+Visakhaptnam,
 - Bangalore
 - Hyderabad
 
 Experience:
-- 20 Years
+- 25 Years
 
 Packages:
 - Basic

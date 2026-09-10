@@ -122,15 +122,15 @@ const Industrial = ({ overlayOpen }) => {
             </p>
           </section>
 
-          {/* 🧱 ఇరుక్కుపోకుండా ఖాళీలు లేని పర్ఫెక్ట్ మాసన్రీ గ్రిడ్ లేఅవుట్ */}
-          <div className="gallery-grid mt-5">
+          {/* 🧱 gallery grid */}
+          <div className="industrial-gallery-grid mt-5">
             {images.map((item, index) => (
               <div
                 className="event-card"
                 key={index}
                 onClick={() => openGallery(index)}
               >
-                {/* ఇమేజ్ దాని అసలైన నిలువు/అడ్డం రేషియోలోనే ఉంటుంది */}
+                {/* horzantall and vertical layout*/}
                 <img src={item.src} alt={item.title} />
 
                 {/* ప్రీమియం సినిమాటిక్ మ్యాట్ బ్లాక్ ఓవర్లే షాడో */}

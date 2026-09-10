@@ -41,6 +41,8 @@ body{
 /* LEFT SIDE */
 .about-left{
   width: 40%;
+  align-items: center;
+  justify-content: center;
 }
 
 /* IMAGE */

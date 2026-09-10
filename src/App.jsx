@@ -10,12 +10,13 @@ import Industrial from "./components/Industrial";
 import Contact from "./components/Contact";
 import ChatBot from "./components/ChatBot";
 import Movie from "./components/Movie";
+import award from "./components/aboutpage/Award";
 
 // Portfolio Components
 import Gallery from "./components/portfolio/Gallery";
 import PortraitPhotography from "./components/portfolio/PortraitPhotography";
 import SchoolEvents from "./components/portfolio/SchoolEvents";
-import CampginPhotography from "./components/portfolio/CampginPhotography";
+import IndustryPhotography from "./components/portfolio/IndustryPhotography";
 import ProductPhotography from "./components/portfolio/ProductPhotography";
 import NaturePhotography from "./components/portfolio/NaturePhotography";
 import FoodPhotography from "./components/portfolio/FoodPhotography";
@@ -63,10 +64,7 @@ function App() {
 
 
 
-<Route
-  path="/campgin-photography"
-  element={<CampginPhotography />}
-/>
+
 
 <Route
   path="/product-photography"

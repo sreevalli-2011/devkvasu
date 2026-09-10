@@ -20,9 +20,10 @@
 /* ==========================================================================
    TRUE ASPECT RATIO MASONRY (Pinterest Layout - Gaps Closed)
    ========================================================================== */
-.gallery-grid {
-  column-count: 3; /* డెస్క్‌టాప్‌లో 3 నిలువు వరుసలు */
-  column-gap: 18px; 
+
+.industrial-gallery-grid {
+  column-count: 3;
+  column-gap: 18px;
   width: 100%;
   padding-top: 20px;
 }
@@ -251,4 +252,17 @@
     padding-bottom: 15px;
   }
   .industrial-info-title, .industrial-info-text { transform: translateY(0); }
+}
+@media(max-width: 1024px) {
+  .industrial-gallery-grid {
+    column-count: 2;
+    column-gap: 14px;
+  }
+}
+
+@media(max-width: 650px) {
+  .industrial-gallery-grid {
+    column-count: 1;
+    column-gap: 0;
+  }
 }

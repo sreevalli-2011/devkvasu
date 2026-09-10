@@ -113,7 +113,7 @@ const Events = ({ overlayOpen }) => {
       <div className={`events-content ${overlayOpen ? "hide-content" : ""}`}>
         
         {/* GALLERY SECTION */}
-        <section className="events-gallery">
+        <section className="events-gallery-section">
           <div className="container">
             
             <div className="gallery-heading">
@@ -128,7 +128,7 @@ const Events = ({ overlayOpen }) => {
             </div>
 
            
-            <div className="gallery-grid mt-5">
+            <div className="events-gallery-grid mt-5">
               {galleryItems.map((item, index) => (
                 <div
                   className="event-card"

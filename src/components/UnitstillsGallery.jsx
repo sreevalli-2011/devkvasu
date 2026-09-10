@@ -210,7 +210,7 @@ const UnitStillsGallery = ({ overlayOpen }) => {
 
         <div className="container">
 
-          <div className="gallery-grid">
+          <div className="unit-gallery-grid">
 
    {galleryItems.map((item, index) => (
   <div

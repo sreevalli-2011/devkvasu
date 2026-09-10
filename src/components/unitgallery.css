@@ -1,21 +1,25 @@
 /* ==========================================================================
-   TRUE MASONRY COLUMNS (ఇమేజెస్ మధ్య గ్యాప్స్ పూర్తిగా క్లోజ్ చేయడానికి)
+   TRUE MASONRY COLUMNS 
    ========================================================================== */
+
 .gallery-grid {
- 
   column-count: 3;
-  column-gap: 16px; /* నిలువు కాలమ్స్ మధ్య దూరం */
-  width: 100%;
+
 }
 
+.unit-gallery-grid {
+  column-count: 3;
+  column-gap: 9px;
+  width: 100%;
+}
 /* ==========================================================================
    CARD STRUCTURE (NO GAPS)
    ========================================================================== */
 .event-card {
   position: relative;
-  display: inline-block; /* కాలమ్స్ లోపల ఇమేజ్ బ్రేక్ అవ్వకుండా ఫిక్స్ చేస్తుంది */
+  display: inline-block; 
   width: 100%;
-  margin-bottom: 16px; /* పై ఇమేజ్ కి కింద ఇమేజ్ కి మధ్య ఉండే దూరం */
+  margin-bottom: 16px; 
   border-radius: 14px;
   overflow: hidden;
   background: #111;
@@ -25,12 +29,12 @@
 /* IMPORTANT: KEEP ORIGINAL IMAGE SIZE */
 .event-card img {
   width: 100%;
-  height: auto; /* ఇమేజ్ ఒరిజినల్ హైట్ ని బట్టి కింద ఇమేజ్ ఆటోమేటిక్‌గా పైకి అతుక్కుంటుంది */
+  height: auto; 
   display: block;
   transition: transform .6s ease;
 }
 
-/* హోవర్ జూమ్ ఎఫెక్ట్ */
+
 .event-card:hover img {
   transform: scale(1.05);
 }
@@ -104,3 +108,16 @@ background: rgba(44, 34, 17, 0.85);
   .event-card { margin-bottom: 16px; }
   .industrial-info { opacity: 0.85; } /* మొబైల్‌లో టెక్స్ట్ ఎప్పుడూ కనిపించేలా */
 } 
+@media (max-width: 1024px) {
+  .unit-gallery-grid {
+    column-count: 2;
+    column-gap: 6px;
+  }
+}
+
+@media (max-width: 650px) {
+  .unit-gallery-grid {
+    column-count: 1;
+    column-gap: 0;
+  }
+}

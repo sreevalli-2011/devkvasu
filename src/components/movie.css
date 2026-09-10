@@ -84,6 +84,9 @@
 
     margin-bottom: 14px;
   }
+  .movie-gallery-grid {
+  margin-top: 0;
+}
 
   .hero-line{
 
@@ -155,5 +158,40 @@
   .author{
 
     font-size: 14px;
+  }
+}
+.movie-gallery-grid {
+  column-count: 3;
+  column-gap: 16px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.event-card {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 16px;
+  break-inside: avoid;
+  overflow: hidden;
+}
+
+.event-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media (max-width: 1024px) {
+  .movie-gallery-grid {
+    column-count: 2;
+    column-gap: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .movie-gallery-grid {
+    column-count: 1;
+    column-gap: 0;
+    margin-top: 0;
   }
 }

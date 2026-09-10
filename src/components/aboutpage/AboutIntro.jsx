@@ -1,6 +1,7 @@
 import React from 'react';
 import aboutImg from '../../assets/images/about.jpg';
 import './aboutintro.css';
+import Award from "./Award";
 
 const AboutIntro = () => {
   return (
@@ -64,7 +65,8 @@ const AboutIntro = () => {
         </div>
 
       </div>
-
+     
+<Award />
     </section>
   );
 };

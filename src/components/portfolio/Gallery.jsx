@@ -42,9 +42,9 @@ const Gallery = () => {
             </div>
           </Link>
 
-          <Link to="/campgin-photography" className="card-link">
+          <Link to="/Industry-photography" className="card-link">
             <div className="bts-card">
-              <h3>Campaign Photography</h3>
+              <h3>Industry Photography</h3>
               <p>Exploring unique perspectives and artistic expressions.</p>
             </div>
           </Link>

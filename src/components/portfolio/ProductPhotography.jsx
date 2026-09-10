@@ -7,7 +7,6 @@ import AboutFooter from "../aboutpage/AboutFooter";
    IMAGE IMPORTS
 ========================= */
 
-
 /* =========================
    IMAGE IMPORTS
 ========================= */
@@ -30,6 +29,37 @@ import im15 from "../../assets/images/product/im-15.JPG";
 import im16 from "../../assets/images/product/im-16.JPG";
 import im17 from "../../assets/images/product/im-17.JPG";
 import im18 from "../../assets/images/product/im-18.JPG";
+import im19 from "../../assets/images/product/im-19.JPG";
+import im20 from "../../assets/images/product/im-20.JPG";
+import im21 from "../../assets/images/product/im-21.JPG";
+import im22 from "../../assets/images/product/im-22.JPG";
+import im23 from "../../assets/images/product/im-23.JPG";
+import im24 from "../../assets/images/product/im-24.JPG";
+import im25 from "../../assets/images/product/im-25.JPG";
+import im26 from "../../assets/images/product/im-26.JPG";
+import im27 from "../../assets/images/product/im-27.JPG";
+import im28 from "../../assets/images/product/im-28.JPG";
+import im29 from "../../assets/images/product/im-29.JPG";
+import im30 from "../../assets/images/product/im-30.JPG";
+import im31 from "../../assets/images/product/im-31.JPG";
+import im32 from "../../assets/images/product/im-32.JPG";
+import im33 from "../../assets/images/product/im-33.JPG";
+import im34 from "../../assets/images/product/im-34.JPG";
+import im35 from "../../assets/images/product/im-35.JPG";
+import im36 from "../../assets/images/product/im-36.JPG";
+import im37 from "../../assets/images/product/im-37.JPG";
+import im38 from "../../assets/images/product/im-38.JPG";
+import im39 from "../../assets/images/product/im-39.JPG";
+import im40 from "../../assets/images/product/im-40.JPG";
+import im41 from "../../assets/images/product/im-41.JPG";
+import im42 from "../../assets/images/product/im-42.JPG";
+import im43 from "../../assets/images/product/im-43.JPG";
+import im44 from "../../assets/images/product/im-44.JPG";
+
+import im46 from "../../assets/images/product/im-46.JPG";
+import im47 from "../../assets/images/product/im-47.JPG";
+import im48 from "../../assets/images/product/im-48.JPG";
+import im49 from "../../assets/images/product/im-49.JPG";
 
 
 /* =========================
@@ -40,86 +70,292 @@ const galleryItems = [
 
   {
     src: im1,
-    title: "Luxury Glassware",
+    title: "YO gift shop",
     description: "Premium glassware photographed with elegant studio lighting and refined composition."
   },
 
   {
     src: im2,
-    title: "Leather Accessories",
+    title: "YO gift shop",
     description: "Stylish leather accessories captured with clean product styling and sharp detail."
   },
 
   {
     src: im3,
-    title: "Designer Footwear",
+    title: "YO gift shop",
     description: "Modern footwear photographed to highlight craftsmanship and premium quality."
   },
 
   {
     src: im4,
-    title: "Gift Packaging",
+    title: "YO gift shop",
     description: "Creative product packaging presented with sophisticated commercial styling."
   },
 
   {
     src: im5,
-    title: "Premium Gadget",
+    title: "YO gift shop",
     description: "Minimalist product photography emphasizing design, texture, and functionality."
   },
 
   {
     src: im6,
-    title: "Luxury Stationery",
+    title: "YO gift shop",
     description: "Professional stationery arranged with elegant styling for commercial branding."
   },
 
   {
     src: im7,
-    title: "Fashion Accessories",
+    title: "YO gift shop",
     description: "Premium accessories photographed with dramatic lighting and crisp details."
   },
 
   {
     src: im8,
-    title: "Lifestyle Product",
+    title: "YO gift shop",
     description: "Creative product composition designed for advertising and digital campaigns."
   },
 
   {
     src: im9,
-    title: "Premium Drinkware",
+    title: "YO gift shop",
     description: "Commercial product photography with rich reflections and luxury presentation."
   },
 
   {
     src: im17,
-    title: "Glass Collection",
+    title: "YO gift shop",
     description: "Elegant glass collection photographed with precision lighting and modern styling."
   },
 
   {
     src: im12,
-    title: "Decor Collection",
+    title: "YO gift shop",
     description: "Beautiful decorative product showcased with premium commercial photography."
   },
 
   {
     src: im13,
-    title: "Luxury Packaging",
+    title: "YO gift shop",
     description: "Clean product presentation highlighting premium packaging and branding."
   },
 
   {
     src: im14,
-    title: "Crystal Glass",
+    title: "YO gift shop",
     description: "Professional studio shot emphasizing clarity, texture, and elegant design."
   },
 
   {
     src: im18,
-    title: "Jewelry Collection",
+    title: "YO gift shop",
     description: "Luxury jewelry photographed with fine detail, rich textures, and premium lighting."
+  },
+
+  {
+    src: im10,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im11,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im15,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im16,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im19,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im20,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im21,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im22,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im23,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im24,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im25,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im26,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im27,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im28,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im29,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im30,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im31,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im32,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im33,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im34,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im35,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im36,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im37,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im38,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im39,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im40,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im41,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im42,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im43,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im44,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+ 
+
+  {
+    src: im46,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im47,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im48,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
+  },
+
+  {
+    src: im49,
+    title: "YO gift shop",
+    description: "Professional product photography with clean composition and detailed presentation."
   }
 
 ];
@@ -208,15 +444,14 @@ const ProductPhotography = ({ overlayOpen }) => {
 
   }, [selectedIndex]);
 
+
   return (
-
-
-
 
     <div
       className={`unitstills-gallery ${overlayOpen ? "hide-content" : ""
         }`}
     >
+
       {/* PAGE HEADER */}
 
       <section className="nature-header">
@@ -234,6 +469,7 @@ const ProductPhotography = ({ overlayOpen }) => {
 
       </section>
 
+
       {/* GALLERY */}
 
       <section className="industrial-gallery-section">
@@ -243,6 +479,7 @@ const ProductPhotography = ({ overlayOpen }) => {
           <div className="nature-grid">
 
             {galleryItems.map((item, index) => (
+
               <div
                 className="nature-card"
                 key={index}
@@ -256,14 +493,19 @@ const ProductPhotography = ({ overlayOpen }) => {
 
 
                 <div className="nature-overlay">
+
                   <h3 className="nature-title">
                     {item.title}
                   </h3>
+
                   <p className="nature-text">
                     {item.description}
                   </p>
+
                 </div>
+
               </div>
+
             ))}
 
 
@@ -272,6 +514,7 @@ const ProductPhotography = ({ overlayOpen }) => {
         </div>
 
       </section>
+
 
       {/* FULLSCREEN POPUP */}
 
@@ -290,6 +533,7 @@ const ProductPhotography = ({ overlayOpen }) => {
           >
             ← Back
           </button>
+
 
           {/* HORIZONTAL TRACK */}
 
@@ -328,12 +572,14 @@ const ProductPhotography = ({ overlayOpen }) => {
         </div>
 
       )}
-          <AboutFooter />
+
+      <AboutFooter />
 
     </div>
 
   );
 
 };
+
 
 export default ProductPhotography;

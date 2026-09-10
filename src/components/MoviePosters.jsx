@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import "./unitgallery.css";
+import "./movie.css";
 import AboutFooter from "./aboutpage/AboutFooter";
 
 
@@ -233,7 +233,7 @@ const UnitStillsGallery = ({ overlayOpen }) => {
 
         <div className="container">
 
-          <div className="gallery-grid">
+          <div className="movie-gallery-grid">
 
    {galleryItems.map((item, index) => (
   <div

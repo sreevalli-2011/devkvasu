@@ -29,11 +29,11 @@ const AboutFooter = () => {
         {/* CONTACT */}
         <div className="footer-contact">
 
-          <p>Bangalore, India</p>
+          <p>Visakhapatnam, Hyderabad, Bengaluru, India</p>
 
-          <p>devkvasu@gmail.com</p>
+          <p>dev.kvasu@gmail.com</p>
 
-          <p>+91 98765 43210</p>
+          <p>+91 9849361585</p>
 
         </div>
 
