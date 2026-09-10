@@ -11,6 +11,7 @@ import AboutFooter from "../aboutpage/AboutFooter";
    IMAGE IMPORTS
 ========================= */
 
+
 import im1 from "../../assets/images/product/im-1.JPG";
 import im2 from "../../assets/images/product/im-2.JPG";
 import im3 from "../../assets/images/product/im-3.JPG";
@@ -26,40 +27,40 @@ import im12 from "../../assets/images/product/im-12.JPG";
 import im13 from "../../assets/images/product/im-13.JPG";
 import im14 from "../../assets/images/product/im-14.JPG";
 import im15 from "../../assets/images/product/im-15.JPG";
-import im16 from "../../assets/images/product/im-16.JPG";
+import im16 from "../../assets/images/product/im-16.jpg"; // Fixed to lowercase .jpg
 import im17 from "../../assets/images/product/im-17.JPG";
 import im18 from "../../assets/images/product/im-18.JPG";
-import im19 from "../../assets/images/product/im-19.JPG";
-import im20 from "../../assets/images/product/im-20.JPG";
-import im21 from "../../assets/images/product/im-21.JPG";
-import im22 from "../../assets/images/product/im-22.JPG";
-import im23 from "../../assets/images/product/im-23.JPG";
+import im19 from "../../assets/images/product/im-19.jpg";
+import im20 from "../../assets/images/product/im-20.jpg";
+import im21 from "../../assets/images/product/im-21.jpg";
+import im22 from "../../assets/images/product/im-22.jpg";
+import im23 from "../../assets/images/product/im-23.jpg";
 import im24 from "../../assets/images/product/im-24.JPG";
 import im25 from "../../assets/images/product/im-25.JPG";
-import im26 from "../../assets/images/product/im-26.JPG";
-import im27 from "../../assets/images/product/im-27.JPG";
-import im28 from "../../assets/images/product/im-28.JPG";
-import im29 from "../../assets/images/product/im-29.JPG";
-import im30 from "../../assets/images/product/im-30.JPG";
+import im26 from "../../assets/images/product/im-26.jpg"; // Fixed to lowercase .jpg
+import im27 from "../../assets/images/product/im-27.jpg"; // Fixed to lowercase .jpg
+import im28 from "../../assets/images/product/im-28.jpg"; // Fixed to lowercase .jpg
+import im29 from "../../assets/images/product/im-29.jpg"; // Fixed to lowercase .jpg
+import im30 from "../../assets/images/product/im-30.jpg"; // Fixed to lowercase .jpg
 import im31 from "../../assets/images/product/im-31.JPG";
-import im32 from "../../assets/images/product/im-32.JPG";
-import im33 from "../../assets/images/product/im-33.JPG";
-import im34 from "../../assets/images/product/im-34.JPG";
-import im35 from "../../assets/images/product/im-35.JPG";
-import im36 from "../../assets/images/product/im-36.JPG";
-import im37 from "../../assets/images/product/im-37.JPG";
-import im38 from "../../assets/images/product/im-38.JPG";
-import im39 from "../../assets/images/product/im-39.JPG";
-import im40 from "../../assets/images/product/im-40.JPG";
-import im41 from "../../assets/images/product/im-41.JPG";
-import im42 from "../../assets/images/product/im-42.JPG";
-import im43 from "../../assets/images/product/im-43.JPG";
-import im44 from "../../assets/images/product/im-44.JPG";
+import im32 from "../../assets/images/product/im-32.jpg"; // Fixed to lowercase .jpg
+import im33 from "../../assets/images/product/im-33.jpg"; // Fixed to lowercase .jpg
+import im34 from "../../assets/images/product/im-34.jpg"; // Fixed to lowercase .jpg
+import im35 from "../../assets/images/product/im-35.jpg"; // Fixed to lowercase .jpg
+import im36 from "../../assets/images/product/im-36.jpg"; // Fixed to lowercase .jpg
+import im37 from "../../assets/images/product/im-37.jpg"; // Fixed to lowercase .jpg
+import im38 from "../../assets/images/product/im-38.jpg"; // Fixed to lowercase .jpg
+import im39 from "../../assets/images/product/im-39.jpg"; // Fixed to lowercase .jpg
+import im40 from "../../assets/images/product/im-40.jpg"; // Fixed to lowercase .jpg
+import im41 from "../../assets/images/product/im-41.jpg"; // Fixed to lowercase .jpg
+import im42 from "../../assets/images/product/im-42.jpg"; // Fixed to lowercase .jpg
+import im43 from "../../assets/images/product/im-43.jpg"; // Fixed to lowercase .jpg
+import im44 from "../../assets/images/product/im-44.jpg"; // Fixed to lowercase .jpg
 
-import im46 from "../../assets/images/product/im-46.JPG";
-import im47 from "../../assets/images/product/im-47.JPG";
-import im48 from "../../assets/images/product/im-48.JPG";
-import im49 from "../../assets/images/product/im-49.JPG";
+import im46 from "../../assets/images/product/im-46.jpg"; // Fixed to lowercase .jpg
+import im47 from "../../assets/images/product/im-47.jpg"; // Fixed to lowercase .jpg
+import im48 from "../../assets/images/product/im-48.jpg"; // Fixed to lowercase .jpg
+import im49 from "../../assets/images/product/im-49.jpg"; 
 
 
 /* =========================
