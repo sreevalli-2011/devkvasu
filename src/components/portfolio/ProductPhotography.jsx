@@ -35,14 +35,14 @@ import im20 from "../../assets/images/product/im-20.jpg";
 import im21 from "../../assets/images/product/im-21.jpg";
 import im22 from "../../assets/images/product/im-22.jpg";
 import im23 from "../../assets/images/product/im-23.jpg";
-import im24 from "../../assets/images/product/im-24.JPG";
-import im25 from "../../assets/images/product/im-25.JPG";
+import im24 from "../../assets/images/product/im-24.jpg";
+import im25 from "../../assets/images/product/im-25.jpg";
 import im26 from "../../assets/images/product/im-26.jpg"; // Fixed to lowercase .jpg
 import im27 from "../../assets/images/product/im-27.jpg"; // Fixed to lowercase .jpg
 import im28 from "../../assets/images/product/im-28.jpg"; // Fixed to lowercase .jpg
 import im29 from "../../assets/images/product/im-29.jpg"; // Fixed to lowercase .jpg
 import im30 from "../../assets/images/product/im-30.jpg"; // Fixed to lowercase .jpg
-import im31 from "../../assets/images/product/im-31.JPG";
+import im31 from "../../assets/images/product/im-31.jpg";
 import im32 from "../../assets/images/product/im-32.jpg"; // Fixed to lowercase .jpg
 import im33 from "../../assets/images/product/im-33.jpg"; // Fixed to lowercase .jpg
 import im34 from "../../assets/images/product/im-34.jpg"; // Fixed to lowercase .jpg
