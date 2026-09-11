@@ -27,7 +27,7 @@ import im12 from "../../assets/images/product/im-12.JPG";
 import im13 from "../../assets/images/product/im-13.JPG";
 import im14 from "../../assets/images/product/im-14.JPG";
 import im15 from "../../assets/images/product/im-15.JPG";
-import im16 from "../../assets/images/product/im-16.jpg"; // Fixed to lowercase .jpg
+import im16 from "../../assets/images/product/im-16.JPG"; // Fixed to lowercase .jpg
 import im17 from "../../assets/images/product/im-17.JPG";
 import im18 from "../../assets/images/product/im-18.JPG";
 import im19 from "../../assets/images/product/im-19.jpg";
